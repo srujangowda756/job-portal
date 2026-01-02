@@ -1,0 +1,103 @@
+.app-header { display:flex; justify-content:space-between; align-items:center; padding:12px 20px; background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); box-shadow: 0 4px 18px rgba(0,0,0,0.25); }
+.brand a { font-weight:700; text-decoration:none; font-size:1.2rem; background: linear-gradient(90deg,#ff8a00,#e52e71,#9b59b6); -webkit-background-clip:text; background-clip:text; color:transparent; animation: hue 6s linear infinite; }
+.header-nav a { margin-right:12px; color:#e6eef8; text-decoration:none; padding:8px 10px; border-radius:8px; transition: all .2s ease; }
+.header-nav a:hover { transform: translateY(-4px) scale(1.02); box-shadow:0 8px 24px rgba(0,0,0,0.25); }
+.logout-btn { padding:8px 12px; background: linear-gradient(90deg,#f85032,#e73827); color:#fff; border:none; border-radius:8px; cursor:pointer; box-shadow:0 6px 18px rgba(231,56,39,0.18); transition: transform .15s ease, box-shadow .15s ease; }
+.logout-btn:active { transform: scale(.98) rotate(-1deg); box-shadow:0 4px 12px rgba(231,56,39,0.12); }
+
+@keyframes hue { 0%{filter:hue-rotate(0deg);}50%{filter:hue-rotate(90deg);}100%{filter:hue-rotate(0deg);} }
+
+/* Backwards-compatible selectors used in some components */
+.nav-container { background: transparent; }
+.nav-content { display:flex; align-items:center; justify-content:space-between; max-width:1100px; margin:0 auto; width:100%; }
+.website-logo { height:34px; }
+.nav-menu { list-style:none; display:flex; gap:12px; margin:0; padding:0; align-items:center; }
+.nav-item {}
+.nav-link { color:#e6eef8; text-decoration:none; padding:6px 8px; }
+.logout-button { background:transparent; border:2px solid rgba(255,255,255,0.06); color:#fff; padding:6px 10px; border-radius:6px; cursor:pointer; }
+.app-header { padding:18px 28px; }
+
+/* Animated neon outline */
+.app-header { position:relative; overflow:visible; }
+.app-header:before { content:""; position:absolute; inset:0; pointer-events:none; border-radius:14px; padding:2px; background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); box-shadow: 0 10px 40px rgba(11,92,186,0.06) inset; }
+.brand a { background: linear-gradient(90deg,#6cf0ff,#8be7ff,#caa1ff); -webkit-background-clip:text; background-clip:text; color:transparent; }
+.nav-container {
+  background-color: #272727;
+  padding: 16px 24px;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.website-logo {
+  width: 120px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-right: 24px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.logout-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.nav-container {
+  background-color: #272727;
+  padding: 16px 24px;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.website-logo {
+  width: 120px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-right: 24px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.logout-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}

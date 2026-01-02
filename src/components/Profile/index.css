@@ -1,0 +1,25 @@
+.profile-main { padding:24px; }
+.profile-root { min-height:100vh; }
+.profile-card { background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:16px; border-radius:10px; max-width:320px; }
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-radius: 12px;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.profile-img {
+  width: 60px;
+  margin-bottom: 16px;
+}
+
+.profile-name {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.profile-bio {
+  font-size: 14px;
+  color: #cbd5e1;
+}

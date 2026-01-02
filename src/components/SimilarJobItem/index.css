@@ -1,0 +1,65 @@
+.similar-job { padding:12px; border-bottom:1px solid rgba(255,255,255,0.04); transition: transform .22s ease, box-shadow .22s ease; display:flex; flex-direction:column; gap:8px; }
+.similar-job:hover { transform: translateX(6px); box-shadow: 0 12px 30px rgba(0,0,0,0.45); }
+.similar-job-card { padding:14px; background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:10px; }
+.company-logo { width:64px; height:64px; object-fit:cover; border-radius:8px; }
+.job-title { margin:0; color:#eaf2ff; font-weight:700; }
+.rating-container { display:flex; align-items:center; gap:8px; }
+.star-icon { color:#ffd96b; }
+.description-heading { font-size:0.95rem; color:#dbefff; }
+.description { color:#cfe8ff; }
+.job-meta { display:flex; gap:12px; }
+.meta-item { display:flex; gap:8px; align-items:center; color:#cfe8ff; }
+.similar-job-card {
+  background-color: #272727;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.company-logo {
+  width: 50px;
+  margin-bottom: 12px;
+}
+
+.job-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  margin-right: 6px;
+}
+
+.description-heading {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.description {
+  font-size: 14px;
+  color: #cbd5e1;
+  margin-bottom: 12px;
+}
+
+.job-meta {
+  display: flex;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.meta-item p {
+  margin-left: 6px;
+  font-size: 14px;
+}

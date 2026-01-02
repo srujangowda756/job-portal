@@ -1,0 +1,7 @@
+.loader-root { padding:20px; text-align:center; }
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
